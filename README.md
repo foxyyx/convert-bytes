@@ -8,6 +8,6 @@ A simple system to convert Bytes to KiloBytes, MegaBytes and GigaBytes
    -- Return: 1 KB
 
    -- // Args: File Path - getFileSize (path)
-   getFileSize ('settings.lua') -- Conversão do peso de um arquivo alem de puxar o peso do mesmo
-   -- Return: 1 B
+   getFileSize ('example.lua') -- Conversão do peso de um arquivo alem de puxar o peso do mesmo
+   -- Return: 233 B
 ```
