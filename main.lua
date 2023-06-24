@@ -11,5 +11,5 @@ function getFileSize (path)
     if (file) then
        bytes = fileGetSize (file)
     end
-    return convertBytes (bytes), fileClose (file)
+    return convertBytes (bytes), bytes, fileClose (file)
 end
