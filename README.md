@@ -1,7 +1,7 @@
-# convert-bytes
-Bytes Convert
+# Bytes Convert
+A simple system to convert Bytes to KiloBytes, MegaBytes and GigaBytes
 
-## How to use
+### How to use
 ```lua
    -- Args: Number of Bytes
    convertBytes (1000) -- Conversão sem precisar de um aruivo
