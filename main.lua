@@ -6,10 +6,11 @@ function convertBytes (bytes)
 end
 
 function getFileSize (path)
-    local file = fileOpen (path)
+    local file = fileOpen (path, true)
     local bytes = 0
     if (file) then
        bytes = fileGetSize (file)
     end
-    return convertBytes (bytes), bytes, fileClose (file)
+    fileClose (file)
+    return convertBytes (bytes)
 end
